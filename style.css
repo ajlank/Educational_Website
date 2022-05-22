@@ -1,0 +1,155 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    text-decoration:none;
+    outline:0;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+  width:120rem;
+  max-width:100%;
+  margin:auto;
+
+}
+/* header section starts here */
+header{
+    position:sticky;
+    z-index:10;
+    background-color:#fff;
+    top:0;
+    left:0;
+    box-shadow:0.1rem 0.1rem 0.1rem #c4c4c4,-0.1rem 0.1rem 0.1rem #c4c4c4;
+}
+.logo-div i{
+    color:forestgreen;
+}
+.logo-div h6{
+    margin-left:0.2rem;
+}
+.nav_div ul li{
+  display:inline;
+  margin-left:15px;
+  font-weight:480;
+}
+.nav_div ul li a{
+    text-decoration:none;
+    color: black;
+    font-size:1rem;
+}
+.fa-user{
+    margin-left:1rem;
+}
+header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:3px 0;
+}
+/* header section ends here */
+/* best section starts here */
+.best-section{
+ background-image:url('home-slide-2.jpg');
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:cover;
+ background-attachment:fixed;
+ height:78vh;
+ padding:11% 1%;
+}
+
+.details-div{
+    display:absolute;
+    left:0;
+    top:0;
+}
+.best-section .container h1{
+    color:white;
+}
+.best-section .container p{
+    color:white;
+}
+.best-section .container button{
+    border:none;
+    padding:8px;
+    color:#33ab91;
+    font-weight:490;
+    border:1px solid #33ab91;
+}
+/* best section ends here */
+/* subject section starts here */
+.subject-section .card{
+    transition:.4s all;
+    background-color: #c2e0dc;
+}
+.subject-section .card:hover{
+    background-color: #33ab91;
+    border:2px solid #21c6ee;
+}
+.subject-section .card img{
+    padding:13% 0;
+}
+.subject-section{
+    padding:4% 10%;
+
+}
+.card .card-details{
+    margin-top:0.1rem;
+}
+.subject-section h4{
+    margin-bottom:2rem;
+}
+/* subject section ends here */
+
+/* course section starts here */
+.course-section{
+    padding:3% 6%;
+    background-color:#eee;
+  
+}
+.course-section img{
+    border:1px solid #21c6ee;
+}
+.container_div{
+    position:relative;
+}
+.container_div{
+  overflow:hidden;
+}
+.web-development button{
+    width:50%;
+    margin:auto;
+    border:none;
+    padding:8px;
+    color:#33ab91;
+    font-weight:490;
+    border:1px solid #33ab91;
+}
+.web-development{
+    position:absolute;
+    width:100%;
+    right:0;
+    margin-top:5rem;
+    bottom:-100rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:13rem;
+    background-color:#1ab09a;
+    color:white;
+    transition:.4s all;
+      
+}
+.web_row:hover .web-development{
+    bottom:0;
+
+}
+/* course section ends here */
+/* footer section  starts here */
+footer{
+    padding:5% 10%;
+    background-color:#c2e0dc;
+}
